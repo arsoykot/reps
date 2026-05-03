@@ -10,13 +10,12 @@ import scala.util.Try
 
 /**
  * Client for the Fingrid Open Data API (data.fingrid.fi).
- *
  * Fetches real wind, hydro, and solar (forecast) production data for Finland.
  * Values are in MW (megawatts) as returned by Fingrid — stored in the outputKWh
  * field for compatibility with the existing model.
  *
  * Requires a free API key from https://data.fingrid.fi/en/instructions
- * Set it as the environment variable FINGRID_API_KEY, or enter it at the prompt.
+ * Set it as the environment variable FINGRID_API_KEY, or enter it at the prompt 8.
  */
 object FingridAPI {
 
