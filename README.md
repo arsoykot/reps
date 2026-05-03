@@ -21,12 +21,12 @@ A functional Scala implementation of a multi-source renewable energy plant monit
 ## Running
 
 ```bash
-cd reps
+cd reps/src/main/scala
 sbt run
+choose 8 and enter your api to load data from Fingrid
 ```
 
 ## Project Structure
-
 ```
 src/main/scala/reps/
 ├── models/
